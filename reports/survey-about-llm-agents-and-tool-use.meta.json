@@ -1,0 +1,384 @@
+{
+  "topic": "survey about LLM agents and tool use",
+  "model": "google_genai:gemini-3.5-flash-lite",
+  "elapsed_s": 1367.3,
+  "subagent_calls": 8,
+  "tool_calls": {
+    "edit_file": 1,
+    "execute": 8,
+    "glob": 2,
+    "grep": 2,
+    "read_file": 13,
+    "task": 8,
+    "write_file": 8,
+    "write_todos": 4
+  },
+  "tokens": {
+    "input": 1180637,
+    "output": 15804
+  },
+  "n_sources": 10,
+  "source_families": [
+    "arxiv",
+    "hf-daily",
+    "hf-search"
+  ],
+  "discovered_sources": [
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2205.00445"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2302.04761"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2304.11116"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2305.15334"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2502.00032"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2512.06716"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2602.18914"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2608.26867"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.10895"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.24831"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.39819"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.02351"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2501.09223"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2605.22949"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2609.31507"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2609.34344"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2609.35433"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2610.02967"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2610.04977"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2610.06496"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2610.06801"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2610.08917"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2610.09087"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2610.11794"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2610.12183"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2610.12299"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2610.12355"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2610.12360"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2610.12369"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2610.12399"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2610.12419"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2610.12421"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2610.12452"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2610.12458"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2610.12459"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2310.03128"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2401.06201"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2401.07324"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2402.01030"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2409.15934"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2501.09136"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2503.04479"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2503.11069"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2503.16416"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2509.01560"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2509.11575"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2601.15232"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2601.20184"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2602.12430"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2602.20867"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2603.22386"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2604.03515"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2605.14892"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2608.20485"
+    },
+    {
+      "source": "web",
+      "url": "https://aclanthology.org/2026.findings-acl.1330.pdf"
+    },
+    {
+      "source": "web",
+      "url": "https://aclanthology.org/2026.findings-acl.2069.pdf"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/abs/2305"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/abs/2311"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/abs/2311.08719"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/abs/2402.17753"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/abs/2403.04317"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/abs/2404.13501"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/abs/2406.10996"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/abs/2501.06322"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/html/2501.06322v1"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/html/2602.06052v4"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/html/2606.10749v2"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/pdf/2501.06322"
+    },
+    {
+      "source": "web",
+      "url": "https://colab.ws/articles/10.48550%2FarXiv.2501.06322"
+    },
+    {
+      "source": "web",
+      "url": "https://dl.acm.org/doi/10.1145/3745238.3745531"
+    },
+    {
+      "source": "web",
+      "url": "https://dl.acm.org/doi/10.1145/3784013.3784018"
+    },
+    {
+      "source": "web",
+      "url": "https://dl.acm.org/doi/10.1145/3807666"
+    },
+    {
+      "source": "web",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3748302"
+    },
+    {
+      "source": "web",
+      "url": "https://doi.org/10.48550/arXiv.2501.06322"
+    },
+    {
+      "source": "web",
+      "url": "https://github.com/Astarojth/AgentAuditor-ASSEBench"
+    },
+    {
+      "source": "web",
+      "url": "https://github.com/Significant-Gravitas/Auto-GPT"
+    },
+    {
+      "source": "web",
+      "url": "https://github.com/nuster1128/LLM_Agent_Memory_Survey"
+    },
+    {
+      "source": "web",
+      "url": "https://github.com/yoheinakajima/babyagi"
+    },
+    {
+      "source": "web",
+      "url": "https://github.com/yxf203/Awesome-Efficient-Agents"
+    },
+    {
+      "source": "web",
+      "url": "https://huggingface.co/papers/2308.03427"
+    },
+    {
+      "source": "web",
+      "url": "https://huggingface.co/papers/2502.11705"
+    },
+    {
+      "source": "web",
+      "url": "https://huggingface.co/papers/2508.17692"
+    },
+    {
+      "source": "web",
+      "url": "https://link.springer.com/article/10.1007/s12559-026-10619-1"
+    },
+    {
+      "source": "web",
+      "url": "https://nanoagentteam.github.io/assets/autonomous-multi-agent-survey.pdf"
+    },
+    {
+      "source": "web",
+      "url": "https://openai.com/blog/chatgpt-plugins"
+    },
+    {
+      "source": "web",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/3dc85735f6e2fcf093e67b134fa00d21-Paper-Conference.pdf"
+    },
+    {
+      "source": "web",
+      "url": "https://www.alphaxiv.org/abs/2512.13564"
+    },
+    {
+      "source": "web",
+      "url": "https://www.researchgate.net/publication/387975271_Multi-Agent_Collaboration_Mechanisms_A_Survey_of_LLMs"
+    },
+    {
+      "source": "web",
+      "url": "https://www.semanticscholar.org/paper/Multi-Agent-Collaboration-Mechanisms%3A-A-Survey-of-Tran-Dao/1d3de3a8eaac916f4eca09930ed8b593a10f5a46"
+    }
+  ]
+}

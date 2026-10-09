@@ -1,0 +1,82 @@
+[
+  {
+    "n": 1,
+    "id": "2205.00445",
+    "url": "https://arxiv.org/abs/2205.00445",
+    "title": "MRKL Systems: A modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning",
+    "date": "2022-05-01",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2302.04761",
+    "url": "https://arxiv.org/abs/2302.04761",
+    "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "date": "2023-02-09",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "2305.15334",
+    "url": "https://arxiv.org/abs/2305.15334",
+    "title": "Gorilla: Large Language Model Connected with Massive APIs",
+    "date": "2023-05-24",
+    "source": "arxiv"
+  },
+  {
+    "n": 4,
+    "id": "2610.09087",
+    "url": "https://huggingface.co/papers/2610.09087",
+    "title": "U-Space: Uncovering When and Why Uncertainty Arises in Language Models",
+    "date": "2026-10-06",
+    "source": "hf-daily"
+  },
+  {
+    "n": 5,
+    "id": "2610.12183",
+    "url": "https://huggingface.co/papers/2610.12183",
+    "title": "A Closer Look at Agentic BBO: Benchmarking LLM Agents for Black-Box Optimization",
+    "date": "2026-10-08",
+    "source": "hf-daily"
+  },
+  {
+    "n": 6,
+    "id": "2610.06496",
+    "url": "https://huggingface.co/papers/2610.06496",
+    "title": "You Changed Your Mind, The Model Didn't: Demystifying Intent in Multi-Turn Dialogue",
+    "date": "2026-10-05",
+    "source": "hf-daily"
+  },
+  {
+    "n": 7,
+    "id": "2602.20867",
+    "url": "https://huggingface.co/papers/2602.20867",
+    "title": "SoK: Agentic Skills -- Beyond Tool Use in LLM Agents",
+    "date": "2026-02-24",
+    "source": "hf-search"
+  },
+  {
+    "n": 8,
+    "id": "2605.14892",
+    "url": "https://huggingface.co/papers/2605.14892",
+    "title": "Beyond Individual Intelligence: Surveying Collaboration, Failure Attribution, and Self-Evolution in LLM-based Multi-Agent Systems",
+    "date": "2026-05-14",
+    "source": "hf-search"
+  },
+  {
+    "n": 9,
+    "id": "2602.12430",
+    "url": "https://huggingface.co/papers/2602.12430",
+    "title": "Agent Skills for Large Language Models: Architecture, Acquisition, Security, and the Path Forward",
+    "date": "2026-02-12",
+    "source": "hf-search"
+  },
+  {
+    "n": 10,
+    "id": "2604.03515",
+    "url": "https://huggingface.co/papers/2604.03515",
+    "title": "Agentic Coding Architectures",
+    "date": "2026-04-10",
+    "source": "hf-search"
+  }
+]

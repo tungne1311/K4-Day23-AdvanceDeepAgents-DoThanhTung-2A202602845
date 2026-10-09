@@ -1,0 +1,122 @@
+[
+  {
+    "n": 1,
+    "id": "2605.00080",
+    "url": "https://huggingface.co/papers/2605.00080",
+    "title": "World Model for Robot Learning: A Comprehensive Survey",
+    "date": "2026-04-30",
+    "source": "hf-search"
+  },
+  {
+    "n": 2,
+    "id": "https://www.nature.com/articles/s41586-025-08744-2",
+    "url": "https://www.nature.com/articles/s41586-025-08744-2",
+    "title": "Mastering diverse control tasks through world models",
+    "date": "2025-04-02",
+    "source": "web"
+  },
+  {
+    "n": 3,
+    "id": "1809.01999",
+    "url": "https://arxiv.org/abs/1809.01999",
+    "title": "Recurrent World Models Facilitate Policy Evolution",
+    "date": "2018-09-04",
+    "source": "arxiv"
+  },
+  {
+    "n": 4,
+    "id": "1811.04551",
+    "url": "https://arxiv.org/abs/1811.04551",
+    "title": "Learning Latent Dynamics for Planning from Pixels",
+    "date": "2018-11-12",
+    "source": "arxiv"
+  },
+  {
+    "n": 5,
+    "id": "1912.01603",
+    "url": "https://arxiv.org/abs/1912.01603",
+    "title": "Learning Behaviors by Latent Imagination",
+    "date": "2019-12-02",
+    "source": "arxiv"
+  },
+  {
+    "n": 6,
+    "id": "2412.03572",
+    "url": "https://arxiv.org/abs/2412.03572",
+    "title": "Navigation World Models",
+    "date": "2024-12-04",
+    "source": "arxiv"
+  },
+  {
+    "n": 7,
+    "id": "2406.14540",
+    "url": "https://arxiv.org/abs/2406.14540",
+    "title": "IRASim: A Fine-Grained World Model for Robot Manipulation",
+    "date": "2024-06-20",
+    "source": "arxiv"
+  },
+  {
+    "n": 8,
+    "id": "2405.12399",
+    "url": "https://arxiv.org/abs/2405.12399",
+    "title": "Diffusion for World Modeling: Visual Details Matter in Atari",
+    "date": "2024-05-20",
+    "source": "arxiv"
+  },
+  {
+    "n": 9,
+    "id": "2512.08931",
+    "url": "https://huggingface.co/papers/2512.08931",
+    "title": "Astra: General Interactive World Model with Autoregressive Denoising",
+    "date": "2025-12-09",
+    "source": "hf-search"
+  },
+  {
+    "n": 10,
+    "id": "https://proceedings.mlr.press/v205/wu23c",
+    "url": "https://proceedings.mlr.press/v205/wu23c.html",
+    "title": "DayDreamer: World Models for Physical Robot Learning",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 11,
+    "id": "2602.08971",
+    "url": "https://huggingface.co/papers/2602.08971",
+    "title": "WorldArena: A Unified Benchmark for Evaluating Perception and Functional Utility of Embodied World Models",
+    "date": "2026-02-09",
+    "source": "hf-search"
+  },
+  {
+    "n": 12,
+    "id": "2606.17030",
+    "url": "https://huggingface.co/papers/2606.17030",
+    "title": "Qwen-RobotWorld Technical Report: Unifying Embodied World Modeling through Language-Conditioned Video Generation",
+    "date": "2026-06-15",
+    "source": "hf-search"
+  },
+  {
+    "n": 13,
+    "id": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhu_IRASim_A_Fine-Grained_World_Model_for_Robot_Manipulation_ICCV_2025_paper.pdf",
+    "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhu_IRASim_A_Fine-Grained_World_Model_for_Robot_Manipulation_ICCV_2025_paper.pdf",
+    "title": "IRASim: A Fine-Grained Robot Manipulation World Model",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 14,
+    "id": "2507.17744",
+    "url": "https://huggingface.co/papers/2507.17744",
+    "title": "Yume: An Interactive World Generation Model",
+    "date": "2025-07-23",
+    "source": "hf-search"
+  },
+  {
+    "n": 15,
+    "id": "2411.00769",
+    "url": "https://huggingface.co/papers/2411.00769",
+    "title": "GameGen-X: Interactive Open-world Game Video Generation",
+    "date": "2024-11-01",
+    "source": "hf-search"
+  }
+]

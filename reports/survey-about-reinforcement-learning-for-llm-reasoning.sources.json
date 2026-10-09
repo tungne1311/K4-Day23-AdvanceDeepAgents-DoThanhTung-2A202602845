@@ -1,0 +1,90 @@
+[
+  {
+    "n": 1,
+    "id": "2203.02155",
+    "url": "https://arxiv.org/abs/2203.02155",
+    "title": "Training language models to follow instructions with human feedback",
+    "date": "2022-03-04",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "https://arxiv.org/html/2503.24235v3",
+    "url": "https://arxiv.org/html/2503.24235v3",
+    "title": "A Survey on Test-Time Scaling in Large Language Models: What, How, Where, and How Well",
+    "date": "2025-05-04",
+    "source": "web"
+  },
+  {
+    "n": 3,
+    "id": "2305.18290",
+    "url": "https://arxiv.org/abs/2305.18290",
+    "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+    "date": "2023-05-29",
+    "source": "arxiv"
+  },
+  {
+    "n": 4,
+    "id": "1707.06347",
+    "url": "https://arxiv.org/abs/1707.06347",
+    "title": "Proximal Policy Optimization Algorithms",
+    "date": "2017-07-20",
+    "source": "arxiv"
+  },
+  {
+    "n": 5,
+    "id": "2609.36641",
+    "url": "https://arxiv.org/abs/2609.36641",
+    "title": "Inducing Process Supervision from Outcome-Only Reinforcement Learning",
+    "date": "2026-09-29",
+    "source": "arxiv"
+  },
+  {
+    "n": 6,
+    "id": "2211.14275",
+    "url": "https://huggingface.co/papers/2211.14275",
+    "title": "Solving math word problems with process- and outcome-based feedback",
+    "date": "2022-11-25",
+    "source": "hf-search"
+  },
+  {
+    "n": 7,
+    "id": "2412.01981",
+    "url": "https://arxiv.org/abs/2412.01981",
+    "title": "Free Process Rewards without Process Labels",
+    "date": "2024-12-02",
+    "source": "arxiv"
+  },
+  {
+    "n": 8,
+    "id": "https://arxiv.org/html/2501.09686",
+    "url": "https://arxiv.org/html/2501.09686",
+    "title": "Towards Large Reasoning Models: A Survey of Reinforced Reasoning with Large Language Models",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 9,
+    "id": "https://arxiv.org/html/2501.10069",
+    "url": "https://arxiv.org/html/2501.10069",
+    "title": "A Survey on Test-Time Scaling in Large Language Models: Tasks, LLM Profiling, Search Algorithms, and Relevant Frameworks",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 10,
+    "id": "https://openai.com/index/learning-to-reason-with-llms/",
+    "url": "https://openai.com/index/learning-to-reason-with-llms/",
+    "title": "Learning to reason with LLMs",
+    "date": "2024-09-12",
+    "source": "web"
+  },
+  {
+    "n": 11,
+    "id": "2406.06592",
+    "url": "https://huggingface.co/papers/2406.06592",
+    "title": "Improve Mathematical Reasoning in Language Models by Automated Process Supervision",
+    "date": "2024-06-05",
+    "source": "hf-search"
+  }
+]
