@@ -12,7 +12,7 @@ hai báo cáo cuối đến sáng 10/10/2026 để kiểm tra lại quota Gemini
 | Năm source tools | Đã thử mạng thật | arXiv, HF và Exa trả nguồn thật; retry có backoff, jitter và Retry-After. |
 | Agents | Đã chạy thật | Lead giao việc, đọc ghi chú, gọi citation-checker; mọi agent có giới hạn gọi. |
 | Sandbox | Đã thử thật | Upload → finalizer → validator → download → cleanup; khóa/network tools ở host. |
-| Kiểm tra mã | Đạt | 66 tests offline thành công; `git diff --check` không báo lỗi. |
+| Kiểm tra mã | Đạt | 66 tests offline thành công; các tệp CÓ SẴN được giữ nguyên. |
 | Báo cáo | 3/5 hoàn tất | Bản nháp chưa đạt không được ghi vào `reports/`. |
 | Kiểm chứng mẫu | 3/5 hoàn tất | Năm mẫu mỗi báo cáo đầu, ghi trong `VERIFICATION.md`. |
 | Nộp link trước | Repo cá nhân public | Mã nguồn và ba bộ báo cáo đã đạt; hai chủ đề còn thiếu được ghi rõ. |
