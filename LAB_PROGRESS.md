@@ -1,9 +1,10 @@
-# Tiến độ lab — 09/10/2026
+# Tiến độ lab — 10/10/2026
 
 Đã triển khai các TODO và sinh ba báo cáo bằng model lab20
-`google_genai:gemini-3.5-flash-lite`. Theo yêu cầu của người dùng, tạm dừng sinh
-hai báo cáo cuối đến sáng 10/10/2026 để kiểm tra lại quota Gemini; công khai phần
-đã hoàn tất lên GitHub trước. `.env` đã chuyển về Gemini lab20.
+`google_genai:gemini-3.5-flash-lite`. Đã kiểm tra lại lúc khoảng 00:11 ngày
+10/10/2026 (Asia/Saigon): lượt thử ngắn thành công, nhưng lượt chạy agent thật
+vẫn bị chặn bởi quota ngày. Repo public hiện giữ ba bộ báo cáo đã hoàn tất;
+`.env` tiếp tục dùng Gemini lab20.
 
 | Bước | Trạng thái | Bằng chứng |
 |---|---|---|
@@ -26,6 +27,14 @@ hai báo cáo cuối đến sáng 10/10/2026 để kiểm tra lại quota Gemini
 | Efficient inference/small models | — | — | — | Đã chuẩn bị nguồn thật, chưa có kết quả cuối |
 
 ## Cấu hình và trở ngại đã xác nhận
+
+- Kiểm tra ngày 10/10: `run_all.py --resume` bỏ qua ba báo cáo đạt và thử tiếp
+  video. Gemini trả `429 RESOURCE_EXHAUSTED`, quota
+  `GenerateRequestsPerDayPerProjectPerModel-FreeTier`, hạn mức 500; API đề nghị
+  chờ `24534s` (khoảng 6 giờ 49 phút). Không coi lượt thử text ngắn thành công
+  là bằng chứng đủ để chạy được toàn bộ workflow.
+- Lượt lỗi đã lưu lại bảy tệp nháp/ghi chú và dọn container. Không có báo cáo
+  mới hoặc thay đổi nào trong ba bộ kết quả đã nộp. Docker đã khởi động thành công.
 
 - Gemini chạm quota ngày 500 requests, thông báo phải chờ hơn 11 giờ. Khóa Gemini
   lab19 và lab20 giống nhau; đổi giữa hai khóa không tạo hạn mức mới.
@@ -53,9 +62,14 @@ cd E:\K4-Day23-AdvanceDeepAgents-Labs
 .\.venv\Scripts\python.exe self_check.py
 ```
 
-Chạy lại sáng 10/10/2026. Nếu Gemini vẫn báo quota ngày, chờ đến khi provider
-cho phép thay vì retry liên tục. Lệnh này giữ ba báo cáo đã đạt và tiếp tục từ
+Chạy lại sau khi hết thời gian chờ do API trả về. Nếu Gemini vẫn báo quota ngày,
+chờ đến khi provider cho phép thay vì retry liên tục. Lệnh này giữ ba báo cáo đã đạt và tiếp tục từ
 ghi chú/bản nháp cục bộ trong `.runs/`; các checkpoint không được công khai.
+
+[Tài liệu Gemini](https://ai.google.dev/gemini-api/docs/rate-limits) ghi quota
+RPD theo project và reset lúc midnight Pacific; thời gian này khác thời gian chờ
+của lỗi API vừa nhận. Vì vậy không cam kết giờ reset cụ thể: cần xác nhận bằng
+workflow thật khi kiểm tra tiếp, không chỉ bằng một câu trả lời ngắn.
 
 `--resume` chỉ bỏ qua báo cáo đã vượt kiểm tra. `self_check.py` chưa thể đạt đầy đủ
 khi còn thiếu hai bộ kết quả. `model.py`, `sandbox.py`, `self_check.py` và

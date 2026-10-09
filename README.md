@@ -1,9 +1,10 @@
 # Deep Research Agent (Deep Agents + Sandbox)
 
-**Bài nộp của Đỗ Thanh Tùng — 2A202602845.** Bản cập nhật ngày 09/10/2026:
+**Bài nộp của Đỗ Thanh Tùng — 2A202602845.** Bản cập nhật ngày 10/10/2026:
 đã hoàn tất mã nguồn và **3/5 báo cáo** (World Model, RL reasoning, LLM agents).
 Hai báo cáo video/multimodal và efficient inference/small models sẽ được tiếp tục
-sau khi quota Gemini được reset. `self_check.py` hiện báo thiếu hai chủ đề này.
+sau khi quota Gemini được reset. Kiểm tra lại đầu ngày 10/10: lượt chạy agent
+vẫn báo hết quota ngày. `self_check.py` hiện báo thiếu hai chủ đề này.
 Xem [tiến độ](LAB_PROGRESS.md) và [kiểm chứng trích dẫn](VERIFICATION.md).
 
 Repo nộp bài: [K4-Day23-AdvanceDeepAgents-DoThanhTung-2A202602845](https://github.com/tungne1311/K4-Day23-AdvanceDeepAgents-DoThanhTung-2A202602845).
