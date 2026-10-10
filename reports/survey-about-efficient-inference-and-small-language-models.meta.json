@@ -1,0 +1,551 @@
+{
+  "topic": "survey about efficient inference and small language models",
+  "model": "google_genai:gemini-3.5-flash-lite",
+  "elapsed_s": 762.6,
+  "subagent_calls": 5,
+  "tool_calls": {
+    "edit_file": 1,
+    "execute": 8,
+    "grep": 4,
+    "ls": 2,
+    "read_file": 9,
+    "task": 5,
+    "write_file": 2,
+    "write_todos": 3,
+    "save_revision": 2,
+    "web_fetch": 6
+  },
+  "tokens": {
+    "input": 724717,
+    "output": 14162
+  },
+  "n_sources": 21,
+  "source_families": [
+    "arxiv",
+    "hf-daily",
+    "hf-search",
+    "web"
+  ],
+  "discovered_sources": [
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2205.14135"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2309.06180"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2503.18292"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.04664"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.06229"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.07742"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2501.09223"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2609.39068"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2610.04977"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2610.08917"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2610.11366"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2610.12242"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2610.12355"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2610.12448"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/1910.01108"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2010.05609"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2204.09179"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2210.17323"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2211.07715"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2211.17192"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2302.01318"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2306.00978"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2306.02272"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2308.07662"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2308.15987"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2309.01729"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2309.02784"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2309.15531"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2310.01074"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2310.13247"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2310.14192"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2311.08981"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2312.07035"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2401.02385"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2402.03898"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2402.05628"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2402.12065"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2402.14289"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2403.02781"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2403.12031"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2404.03605"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2405.11788"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2405.14159"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2407.00996"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2407.01885"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2409.00142"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2409.06669"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2410.06916"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2410.10846"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2410.17599"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2410.20011"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2411.00850"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2501.12619"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2501.18154"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2502.05609"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2504.07989"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2504.15027"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2504.17376"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2505.19529"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2505.19645"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2505.21600"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2506.10205"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2507.18553"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2509.18344"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2510.13831"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2510.27641"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2512.14645"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2512.21911"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2601.11580"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2601.14032"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2602.02538"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2603.03333"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2604.00421"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2605.30852"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2607.07964"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2608.06867"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2608.07019"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2609.31009"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2610.12242"
+    },
+    {
+      "source": "web",
+      "url": "http://arxiv.org/abs/1910.01108"
+    },
+    {
+      "source": "web",
+      "url": "https://ar5iv.labs.arxiv.org/html/2309.06180"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/abs/2205.14135"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/abs/2205.14135v2"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/abs/2210.17323"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/abs/2210.17323v2"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/abs/2211.17192"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/abs/2211.17192v2"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/abs/2306.00978"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/abs/2309.06180"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/abs/2401.02385"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/abs/2503.18292"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/abs/2609.31009"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/html/2210.17323v2"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/html/2306.00978v2"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/html/2401.02385v2"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/html/2503.18292v1"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/html/2609.31009v1"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/html/2610.12242"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/pdf/1910.01108v4"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/pdf/2309.06180"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.science/abs/2503.18292"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.science/abs/2609.31009"
+    },
+    {
+      "source": "web",
+      "url": "https://docs.vllm.ai/"
+    },
+    {
+      "source": "web",
+      "url": "https://docs.vllm.ai/en/latest/design/paged_attention/"
+    },
+    {
+      "source": "web",
+      "url": "https://docs.vllm.ai/en/stable/design/paged%5Fattention/"
+    },
+    {
+      "source": "web",
+      "url": "https://doi.org/10.48550/arXiv.2205.14135"
+    },
+    {
+      "source": "web",
+      "url": "https://github.com/DL-Attention/flash-attention-1"
+    },
+    {
+      "source": "web",
+      "url": "https://github.com/G2PTQ/G2PTQ"
+    },
+    {
+      "source": "web",
+      "url": "https://github.com/IST-DASLab/gptq"
+    },
+    {
+      "source": "web",
+      "url": "https://github.com/ggerganov/llama.cpp"
+    },
+    {
+      "source": "web",
+      "url": "https://github.com/huggingface/swift-coreml-transformers"
+    },
+    {
+      "source": "web",
+      "url": "https://github.com/huggingface/transformers"
+    },
+    {
+      "source": "web",
+      "url": "https://github.com/jzhang38/"
+    },
+    {
+      "source": "web",
+      "url": "https://github.com/jzhang38/TinyLlama"
+    },
+    {
+      "source": "web",
+      "url": "https://github.com/mit-han-lab/llm-awq"
+    },
+    {
+      "source": "web",
+      "url": "https://github.com/thu-nics/TokenRouter"
+    },
+    {
+      "source": "web",
+      "url": "https://github.com/vllm-project/vllm"
+    },
+    {
+      "source": "web",
+      "url": "https://huggingface.co/collections/nics-efc/tokenrouter"
+    },
+    {
+      "source": "web",
+      "url": "https://huggingface.co/papers/1910.01108"
+    },
+    {
+      "source": "web",
+      "url": "https://huggingface.co/papers/2211.17192"
+    },
+    {
+      "source": "web",
+      "url": "https://huggingface.co/papers/2401.02385"
+    },
+    {
+      "source": "web",
+      "url": "https://proceedings.mlsys.org/paper_files/paper/2024/file/42a452cbafa9dd64e9ba4aa95cc1ef21-Paper-Conference.pdf"
+    }
+  ],
+  "revisions": [
+    {
+      "model": "google_genai:gemini-3.5-flash-lite",
+      "elapsed_s": 13.6,
+      "subagent_calls": 0,
+      "tool_calls": {
+        "save_revision": 1,
+        "web_fetch": 5
+      },
+      "tokens": {
+        "input": 41573,
+        "output": 1731
+      },
+      "review": "Review and narrowly correct the existing efficient inference survey using primary sources. Preserve source URL/provenance records and valid content; all edits/finalizer/validator inside sandbox, no program edits.\n\n1. FlashAttention https://arxiv.org/abs/2205.14135 is exact IO-aware attention: reduces HBM reads/writes and memory footprint, but does not remove the quadratic arithmetic complexity of dense self-attention. Correct any TL;DR claim that it reduces quadratic computation complexity.\n2. PagedAttention https://arxiv.org/abs/2309.06180 enables near-zero KV-cache waste, avoiding external fragmentation and bounding last-block/internal waste. Do not claim all internal/external fragmentation is completely eliminated or that it reduces attention's quadratic arithmetic complexity.\n3. Distinguish training results from inference results. FlashAttention abstract benchmark speedups concern training; do not present them as universal inference gains. Qualify throughput numbers by hardware, workload, baseline and evaluation setting.\n4. TinyLlama https://arxiv.org/abs/2401.02385 is a 1.1B pretrained model, not distilled BERT. DistilBERT is an encoder understanding model, not an autoregressive generation model. Preserve this distinction and avoid unsupported edge-throughput claims.\n5. Replace any raw bracketed paper identifier such as [2501.09223] with the correct numeric citation if that source is listed, or remove the unsupported claim. Check every substantial sentence and every [n] against its actual source.\n6. Use exact heading ## Trends and open problems. Differentiate algorithmic speculative decoding's exact target distribution from approximate sparse/quantized methods. Do not generalize isolated benchmark speedups to all systems.\n\nFetch these primary pages to verify precise corrections; do not add new sources or relabel existing ones.\n",
+      "before_report_sha256": "b3de4032c27d2bb96dccc04845a26ae60cc1689d7dd370c7f5b5de816e7a0aa0"
+    },
+    {
+      "model": "google_genai:gemini-3.5-flash-lite",
+      "elapsed_s": 13.5,
+      "subagent_calls": 0,
+      "tool_calls": {
+        "save_revision": 1,
+        "web_fetch": 1
+      },
+      "tokens": {
+        "input": 22975,
+        "output": 1482
+      },
+      "review": "Correct only the Decoding Acceleration and Serving Systems paragraph, keeping other content and all source URLs/provenance. Fetch https://arxiv.org/html/2211.17192 section 2.1 to verify the algorithm.\n\nThe draft/approximation model generates a candidate token sequence autoregressively; the large target model evaluates those candidate positions in parallel. The current sentence incorrectly says the lightweight draft generates its candidates in parallel. Rewrite it accurately and cite [20][12]. Explain acceptance/rejection or exact target-distribution preservation briefly, without claiming exactness for sparse approximations [21].\n\nAlso narrow the opening universal claim that autoregressive generation inherently suffers from memory bandwidth starvation: decoding can be memory-bandwidth limited depending on batch size/hardware, not all workloads. Keep it supported by the speculative decoding primary paper. Do not invent measured speedups. Submit the complete corrected body and rerun checks inside sandbox.\n",
+      "before_report_sha256": "e439a6d3ba442ba8821072f45c683725d3e339c29a1a334f9a4fc33b1ad49da2"
+    }
+  ]
+}

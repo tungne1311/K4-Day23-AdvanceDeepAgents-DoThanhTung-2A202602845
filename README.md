@@ -1,10 +1,10 @@
 # Deep Research Agent (Deep Agents + Sandbox)
 
 **Bài nộp của Đỗ Thanh Tùng — 2A202602845.** Bản cập nhật ngày 10/10/2026:
-đã hoàn tất mã nguồn và **3/5 báo cáo** (World Model, RL reasoning, LLM agents).
-Hai báo cáo video/multimodal và efficient inference/small models sẽ được tiếp tục
-sau khi quota Gemini được reset. Kiểm tra lại đầu ngày 10/10: lượt chạy agent
-vẫn báo hết quota ngày. `self_check.py` hiện báo thiếu hai chủ đề này.
+đã hoàn tất mã nguồn và **5/5 báo cáo** bằng model từ các lab trước.
+`self_check.py` báo **READY to submit**, 68 tests offline đạt; đã đối chiếu
+năm mẫu trích dẫn mỗi báo cáo với nguồn gốc. Kiểm tra tự động và kiểm tra mẫu
+không thay thế việc chấm chất lượng nội dung của giảng viên.
 Xem [tiến độ](LAB_PROGRESS.md) và [kiểm chứng trích dẫn](VERIFICATION.md).
 
 Repo nộp bài: [K4-Day23-AdvanceDeepAgents-DoThanhTung-2A202602845](https://github.com/tungne1311/K4-Day23-AdvanceDeepAgents-DoThanhTung-2A202602845).
@@ -190,6 +190,12 @@ Nếu kiểm chứng nội dung phát hiện lỗi sau khi sinh báo cáo, có t
 trong sandbox mới; host tải nguyên bytes đã kiểm tra về. Giữ tập nguồn/provenance
 gốc và cộng các lượt gọi/token thực tế vào metadata, có lịch sử `revisions`.
 Không sửa tay các tệp báo cáo hoặc chạy finalizer trên host.
+
+Thêm `--focused` vào lệnh `revise_report.py` để cung cấp trực tiếp báo cáo và
+danh mục cho agent, giới hạn còn 5 lượt model/8 lượt tool. Agent chỉ có thể
+fetch nguồn và gửi bản sửa qua tool ghi trong sandbox; finalizer/validator vẫn
+chạy trong sandbox. Metadata giữ lượt giao việc thật của run gốc và cộng token,
+lượt tool thực tế của revision. Không cộng lượt lỗi hoặc lượt đã dừng.
 
 
 ## Tiếp tục với nguồn đã kiểm chứng

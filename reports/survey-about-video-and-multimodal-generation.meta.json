@@ -1,0 +1,605 @@
+{
+  "topic": "survey about video and multimodal generation",
+  "model": "google_genai:gemini-3.5-flash-lite",
+  "elapsed_s": 1481.4,
+  "subagent_calls": 5,
+  "tool_calls": {
+    "execute": 11,
+    "glob": 2,
+    "grep": 3,
+    "read_file": 18,
+    "task": 5,
+    "write_file": 5,
+    "write_todos": 3,
+    "save_revision": 2,
+    "web_fetch": 7
+  },
+  "tokens": {
+    "input": 1388439,
+    "output": 13197
+  },
+  "n_sources": 9,
+  "source_families": [
+    "hf-daily",
+    "hf-search",
+    "web"
+  ],
+  "discovered_sources": [
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/1212.4877"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/1611.03527"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/1712.01695"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/1712.01696"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/1712.01700"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2112.12609"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2207.09814"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2210.02303"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2211.03364"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2301.11798"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2302.11550"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2304.00186"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2307.04725"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2308.16323"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2310.16003"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2311.10709"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2402.01385"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2402.03473"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2406.14130"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2408.02496"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2408.06072"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2411.16720"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2412.03837"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2508.09131"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2508.10774"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2508.18509"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2605.14136"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2608.07569"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.02000"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.31654"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.31668"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.34330"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.35189"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.36433"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.36832"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.03980"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.07939"
+    },
+    {
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.10984"
+    },
+    {
+      "source": "hf-daily",
+      "url": "https://huggingface.co/papers/2610.12459"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2205.15868"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2209.12356"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2211.01324"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2211.13221"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2303.08914"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2303.11305"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2303.13439"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2305.04160"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2305.05845"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2305.10874"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2305.18752"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2307.04725"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2307.16184"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2308.09592"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2309.05519"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2309.10730"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2309.16058"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2310.17428"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2311.10122"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2311.13435"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2311.15127"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2311.16511"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2312.03793"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2312.14125"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2402.12226"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2403.06764"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2405.14785"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2405.15677"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2405.20279"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2405.21075"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2406.03520"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2408.06072"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2408.14023"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2409.03206"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2410.02713"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2410.05227"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2410.07763"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2410.13720"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2410.13832"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2410.16152"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2410.19702"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2412.00131"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2412.01429"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2412.01818"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2412.18609"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2412.20404"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2501.01426"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2501.07108"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2501.09038"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2502.01776"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2502.06155"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2503.09642"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2504.06861"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2504.15604"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2505.12489"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2506.06097"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2507.23785"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2510.02283"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2510.13759"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2511.04675"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2511.10753"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2512.02014"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2512.11336"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2512.25075"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2602.00946"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2602.18846"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2604.24763"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2605.02134"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2605.25328"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2605.25979"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2607.14088"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2607.14935"
+    },
+    {
+      "source": "hf-search",
+      "url": "https://huggingface.co/papers/2608.10744"
+    },
+    {
+      "source": "web",
+      "url": "https://aclanthology.org/2024.emnlp-main.342/"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/abs/2311.10122"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/abs/2311.15127"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/abs/2503.09642v2"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/html/2309.05519v3"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/html/2312.14125v1"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/html/2503.09642v3"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.org/pdf/2309.05519"
+    },
+    {
+      "source": "web",
+      "url": "https://arxiv.science/abs/2503.09642"
+    },
+    {
+      "source": "web",
+      "url": "https://github.com/Stability-AI/generative-models"
+    },
+    {
+      "source": "web",
+      "url": "https://github.com/Stability-AI/generative-models/blob/ed0997173f98eaf8f4edf7ba5fe8f15c6b877fd3/scripts/sampling/simple_video_sample.py#L188"
+    },
+    {
+      "source": "web",
+      "url": "https://github.com/guoyww/AnimateDiff/"
+    },
+    {
+      "source": "web",
+      "url": "https://github.com/hpcaitech/Open-Sora"
+    },
+    {
+      "source": "web",
+      "url": "https://github.com/huggingface/diffusers/blob/8abc7aeb715c0149ee0a9982b2d608ce97f55215/src/diffusers/pipelines/stable_video_diffusion/pipeline_stable_video_diffusion.py"
+    },
+    {
+      "source": "web",
+      "url": "https://huggingface.co/papers/2205.11487"
+    },
+    {
+      "source": "web",
+      "url": "https://mlnomad.com/machine-learning/video-generation-models-as-world-simulators/"
+    },
+    {
+      "source": "web",
+      "url": "https://next-gpt.github.io/"
+    },
+    {
+      "source": "web",
+      "url": "https://openai.com/index/video-generation-models-as-world-simulators/"
+    },
+    {
+      "source": "web",
+      "url": "https://proceedings.mlr.press/v235/wu24e.html"
+    },
+    {
+      "source": "web",
+      "url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/wu24e/wu24e.pdf"
+    },
+    {
+      "source": "web",
+      "url": "https://runway.com/research/scale-speed-and-stepping-stones-the-path-to-gen-2"
+    },
+    {
+      "source": "web",
+      "url": "https://runwayml.com/research/gen-2"
+    },
+    {
+      "source": "web",
+      "url": "https://web.archive.org/web/20240216072133/openai.com/research/video-generation-models-as-world-simulators"
+    },
+    {
+      "source": "web",
+      "url": "https://www.runwayml.com/research/scale-speed-and-stepping-stones-the-path-to-gen-2"
+    }
+  ],
+  "revisions": [
+    {
+      "model": "google_genai:gemini-3.5-flash-lite",
+      "elapsed_s": 13.8,
+      "subagent_calls": 0,
+      "tool_calls": {
+        "save_revision": 1,
+        "web_fetch": 3
+      },
+      "tokens": {
+        "input": 19070,
+        "output": 1709
+      },
+      "review": "Check and narrowly correct the following claims using primary sources, within the sandbox. Preserve source URLs/provenance and all good content. Do not edit programs. Rerun finalizer and validator.\n\n1. NExT-GPT: https://arxiv.org/abs/2309.05519 says roughly 1% of certain projection-layer parameters are tuned; it does not support attributing all of that figure solely to LoRA. Use the verified adaptor/projection description and remove the unsupported LoRA-only attribution.\n2. Do not say that Video-LLaVA itself generates video or audio. It is a visual understanding model, whereas NExT-GPT and VideoPoet enable content generation. In comparisons explicitly distinguish understanding from generation.\n3. Avoid attributing pre-trained image backbones to NExT-GPT as though it reused the Open-Sora Flux architecture; describe its separately pretrained modality encoders/decoders according to its own source.\n4. In Background, remove unsupported historical claims attached to the Sora page if they are absent from retrieved evidence. Keep concise definitions grounded in sources.\n5. Trends must stay supported by citations, including the final sentence about closed-loop action-conditioned video. Use a relevant already-listed primary source if available, otherwise remove unsupported conclusions. Do not attach Open-Sora citations to unrelated tokenizer or closed-loop claims.\n\nAll changes are made by the agent inside Docker. Preserve the English headings and substantial-paragraph citations.\n\n6. The 11B parameter count belongs to the Open-Sora 2.0 video model, not necessarily to the pretrained FLUX image model. Verify section 3.2 and Appendix C of https://arxiv.org/html/2503.09642. Remove the unsupported claim that FLUX itself is an 11B model; simply say initialized from FLUX.\n\n7. CRITICAL citation mismatch: the revised manifest assigns [9] to WorldGuide (2610.12459), but some body text still describes AnimateDiff, Domain Adapter LoRAs, SparseCtrl and MotionLoRAs under [9]. Remove those claims because AnimateDiff is no longer a listed source. Replace them with a thematic comparison of open-loop video synthesis versus WorldGuide closed-loop goal-directed execution, supported by https://arxiv.org/abs/2610.12459 and the existing [9] record. Update TL;DR, open-source section and comparison section consistently, retain three labels including hf-daily, and check every surviving [9] claim against WorldGuide.\n",
+      "before_report_sha256": "ceb402c9f2dee6ad44770efd3db2b97683d0e025907adca5e0322c80abc092ca"
+    },
+    {
+      "model": "google_genai:gemini-3.5-flash-lite",
+      "elapsed_s": 13.2,
+      "subagent_calls": 0,
+      "tool_calls": {
+        "save_revision": 1,
+        "web_fetch": 4
+      },
+      "tokens": {
+        "input": 33389,
+        "output": 1956
+      },
+      "review": "Make four focused corrections to the existing survey, preserving all nine source URLs and source labels. Apply them fully; do not keep the unsupported old sentences. All writing/checks inside sandbox.\n\n1. Replace the ENTIRE Background paragraph with a concise description of Sora's compressed spacetime latent patches and variable-duration/resolution training [1], and the Runway Gen-2 approach [2] only as supported by its official page. Remove the historical RNN/GAN claims, the broad claim that LLMs established generalist paradigms, and speculation about democratization. Primary URLs: https://openai.com/index/video-generation-models-as-world-simulators/ and https://www.runwayml.com/research/scale-speed-and-stepping-stones-the-path-to-gen-2 .\n2. Replace the ENTIRE Trends and open problems paragraph with three cited, supported directions: Open-Sora reported $200k training and efficiency/reproducibility [7]; CogVideoX text-video alignment/temporal coherence [6]; WorldGuide closed-loop procedural execution versus open-loop and long-horizon state tracking [8]. Remove unsupported claims about replacing rigid pipelines, causal tokenizers, and fractions of proprietary cost. Primary URL: https://arxiv.org/abs/2610.12459 .\n3. In the comparative section, replace the statement attributing pretrained image backbones jointly to NExT-GPT and Open-Sora. Say NExT-GPT connects pretrained modality encoders/decoders with an LLM [4], while Open-Sora initializes from FLUX [7]. Distinguish each model architecture; do not ascribe expert transformers to all three latent diffusion systems.\n4. Remove the ~300,000 vocabulary-size statement from VideoPoet: retain only the source-supported decoder-only autoregressive multimodal framework [5]. Do not introduce numerical details without retrieved evidence.\n\nKeep all other supported content. No editorial correction notes, cite substantial text, rerun finalizer and validator. Do not change source provenance to meet the rubric.\n",
+      "before_report_sha256": "f44111c87e0b12863632095798ec417dae8c46782cc8deff4070fef6da04c31e"
+    }
+  ]
+}

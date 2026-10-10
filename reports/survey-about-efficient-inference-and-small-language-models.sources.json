@@ -1,0 +1,170 @@
+[
+  {
+    "n": 1,
+    "id": "2205.14135",
+    "url": "https://arxiv.org/abs/2205.14135",
+    "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+    "date": "2022-05-27",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2309.06180",
+    "url": "https://arxiv.org/abs/2309.06180",
+    "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+    "date": "2023-09-12",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "vllm-docs",
+    "url": "https://docs.vllm.ai/",
+    "title": "vLLM Documentation and Serving Infrastructure",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 4,
+    "id": "2210.17323",
+    "url": "https://huggingface.co/papers/2210.17323",
+    "title": "GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers",
+    "date": "2022-10-31",
+    "source": "hf-search"
+  },
+  {
+    "n": 5,
+    "id": "2306.00978",
+    "url": "https://huggingface.co/papers/2306.00978",
+    "title": "AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration",
+    "date": "2023-06-01",
+    "source": "hf-search"
+  },
+  {
+    "n": 6,
+    "id": "2609.31009",
+    "url": "https://huggingface.co/papers/2609.31009",
+    "title": "G^2PTQ: Improving LLM Post-Training Quantization with Generalized Gradient Compensation",
+    "date": "2026-09-25",
+    "source": "hf-search"
+  },
+  {
+    "n": 7,
+    "id": "1910.01108",
+    "url": "https://huggingface.co/papers/1910.01108",
+    "title": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+    "date": "2019-10-02",
+    "source": "hf-search"
+  },
+  {
+    "n": 8,
+    "id": "2401.02385",
+    "url": "https://huggingface.co/papers/2401.02385",
+    "title": "TinyLlama: An Open-Source Small Language Model",
+    "date": "2024-01-04",
+    "source": "hf-search"
+  },
+  {
+    "n": 9,
+    "id": "2504.17376",
+    "url": "https://huggingface.co/papers/2504.17376",
+    "title": "On-Device Qwen2.5: Efficient LLM Inference with Model Compression and Hardware Acceleration",
+    "date": "2025-04-24",
+    "source": "hf-search"
+  },
+  {
+    "n": 10,
+    "id": "2609.39068",
+    "url": "https://huggingface.co/papers/2609.39068",
+    "title": "SparseEngine: Sparse-First Inference Engine",
+    "date": "2026-09-30",
+    "source": "hf-daily"
+  },
+  {
+    "n": 11,
+    "id": "2610.12242",
+    "url": "https://huggingface.co/papers/2610.12242",
+    "title": "TokenRouter: Efficient Serving System for Token-Level LLM Routing",
+    "date": "2026-10-08",
+    "source": "hf-daily"
+  },
+  {
+    "n": 12,
+    "id": "2302.01318",
+    "url": "https://huggingface.co/papers/2302.01318",
+    "title": "Accelerating Large Language Model Decoding with Speculative Sampling",
+    "date": "2023-02-02",
+    "source": "hf-search"
+  },
+  {
+    "n": 13,
+    "id": "2503.18292",
+    "url": "https://arxiv.org/abs/2503.18292",
+    "title": "Jenga: Effective Memory Management for Serving LLM with Heterogeneity",
+    "date": "2025-03-24",
+    "source": "arxiv"
+  },
+  {
+    "n": 14,
+    "id": "2308.07662",
+    "url": "https://huggingface.co/papers/2308.07662",
+    "title": "Gradient-Based Post-Training Quantization: Challenging the Status Quo",
+    "date": "2023-08-15",
+    "source": "hf-search"
+  },
+  {
+    "n": 15,
+    "id": "2506.10205",
+    "url": "https://huggingface.co/papers/2506.10205",
+    "title": "AWP: Activation-Aware Weight Pruning and Quantization with Projected Gradient Descent",
+    "date": "2025-06-11",
+    "source": "hf-search"
+  },
+  {
+    "n": 16,
+    "id": "2211.07715",
+    "url": "https://huggingface.co/papers/2211.07715",
+    "title": "Fast DistilBERT on CPUs",
+    "date": "2022-10-27",
+    "source": "hf-search"
+  },
+  {
+    "n": 17,
+    "id": "2310.13247",
+    "url": "https://huggingface.co/papers/2310.13247",
+    "title": "Anomaly Detection of Command Shell Sessions based on DistilBERT: Unsupervised and Supervised Approaches",
+    "date": "2023-10-20",
+    "source": "hf-search"
+  },
+  {
+    "n": 18,
+    "id": "2402.14289",
+    "url": "https://huggingface.co/papers/2402.14289",
+    "title": "TinyLLaVA: A Framework of Small-scale Large Multimodal Models",
+    "date": "2024-02-22",
+    "source": "hf-search"
+  },
+  {
+    "n": 19,
+    "id": "2405.11788",
+    "url": "https://huggingface.co/papers/2405.11788",
+    "title": "TinyLLaVA Factory: A Modularized Codebase for Small-scale Large Multimodal Models",
+    "date": "2024-05-20",
+    "source": "hf-search"
+  },
+  {
+    "n": 20,
+    "id": "2211.17192",
+    "url": "https://huggingface.co/papers/2211.17192",
+    "title": "Fast Inference from Transformers via Speculative Decoding",
+    "date": "2022-11-30",
+    "source": "hf-search"
+  },
+  {
+    "n": 21,
+    "id": "2510.27641",
+    "url": "https://huggingface.co/papers/2510.27641",
+    "title": "SpecAttn: Speculating Sparse Attention Mechanisms",
+    "date": "2025-10-31",
+    "source": "hf-search"
+  }
+]

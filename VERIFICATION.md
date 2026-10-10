@@ -1,4 +1,4 @@
-# Đối chiếu mẫu trích dẫn — 09/10/2026
+# Đối chiếu mẫu trích dẫn — cập nhật 10/10/2026
 
 Đây là ghi chú kiểm chứng, không sửa nội dung báo cáo đã tải từ sandbox.
 Kiểm tra tự động xác nhận cấu trúc và liên kết số trích dẫn; đối chiếu mẫu dưới
@@ -43,6 +43,40 @@ Ba nhãn là arXiv, HF Daily, HF Search: hai nhãn HF cùng một nhà cung cấ
 | [6] Intent-Eval | Đề xuất bị người dùng từ chối vẫn có thể làm lệch nhiệm vụ; benchmark gồm tool actions, code, databases, mathematics | Đạt. [Abstract bài gốc](https://arxiv.org/abs/2610.06496) mô tả thất bại mentioned-as-in-effect và các miền đánh giá. |
 | [7] SoK Agentic Skills | Skill đóng gói tri thức thủ tục, điều kiện áp dụng và execution policies | Đạt. [Abstract bài gốc](https://arxiv.org/abs/2602.20867) định nghĩa skill theo các thành phần này, phân biệt với một tool call đơn lẻ. |
 
-## Video/multimodal và efficient inference
+## Video and multimodal generation
 
-Đang sinh báo cáo; sẽ đối chiếu mẫu sau khi có kết quả cuối.
+Báo cáo: `reports/survey-about-video-and-multimodal-generation.md`.
+Metadata có 136 cặp URL/nhãn khám phá thực tế; chín nguồn cuối đều khớp sổ.
+Ba nhãn: web, HF Search, HF Daily. Hai nhãn HF cùng một nhà cung cấp.
+
+| Trích dẫn | Khẳng định được kiểm tra | Bằng chứng và kết quả |
+|---|---|---|
+| [1] Sora | Transformer hoạt động trên spacetime latent patches; dữ liệu có độ dài, độ phân giải, aspect ratio khác nhau | Đạt. [Báo cáo kỹ thuật OpenAI](https://openai.com/index/video-generation-models-as-world-simulators/) mô tả nén video theo không gian/thời gian, patchification và joint image/video training. |
+| [4] NExT-GPT | Kết nối LLM với multimodal adaptors và diffusion decoders để nhận/sinh text, image, video, audio | Đạt. [Abstract bài gốc](https://arxiv.org/abs/2309.05519) hỗ trợ kiến trúc và các modality; không suy rộng thành một hệ thống sinh nội dung hoàn toàn autoregressive. |
+| [6] CogVideoX | 3D VAE, expert transformer với expert adaptive LayerNorm; video 10 giây, 16 fps | Đạt trong mô hình được tác giả báo cáo. [Abstract](https://arxiv.org/abs/2408.06072) nêu trực tiếp các thành phần và thông số. |
+| [7] Open-Sora 2.0 | Full attention; chi phí huấn luyện được tác giả báo cáo là $200k | Đạt. [Abstract](https://arxiv.org/abs/2503.09642) nêu chi phí, [mục 3.2](https://arxiv.org/html/2503.09642) nêu full attention. Không suy ra chi phí tương đối của hệ thống proprietary không công bố. |
+| [8] WorldGuide | Closed-loop procedural execution: chọn hành động, sinh clip, dùng trạng thái sinh ra để chọn bước tiếp theo hoặc dừng | Đạt. [Abstract bài gốc](https://arxiv.org/abs/2610.12459) mô tả Planner/Executor và việc thích nghi với kết quả trung gian. |
+
+Các lỗi phát hiện được đã sửa bằng agent trong sandbox: gán STDiT sai cho
+Open-Sora, nhầm tham số của FLUX/Open-Sora, trích dẫn AnimateDiff trỏ vào
+WorldGuide, nhầm mô hình hiểu video với mô hình sinh video, và câu xu hướng
+vượt bằng chứng. Hai revision được ghi trong metadata; giữ tập URL/nhãn nguồn,
+finalizer có thể đánh số lại theo thứ tự trích dẫn. Không sửa báo cáo ở host.
+
+## Efficient inference and small language models
+
+Báo cáo: `reports/survey-about-efficient-inference-and-small-language-models.md`.
+21 nguồn cuối; bốn nhãn arXiv, HF Daily, HF Search, web đều có bằng chứng discovery.
+
+| Trích dẫn | Khẳng định được kiểm tra | Bằng chứng và kết quả |
+|---|---|---|
+| [1] FlashAttention | Exact attention với IO-aware tiling, giảm HBM reads/writes; không loại bỏ quadratic arithmetic của dense attention | Đạt. [Abstract](https://arxiv.org/abs/2205.14135) phân biệt IO complexity và thuật toán exact. Các speedup trong abstract là kết quả training, không là bảo đảm inference chung. |
+| [2] PagedAttention | Quản lý KV cache bằng nguyên lý paging, giảm fragmentation/waste và cho phép sharing | Đạt. [Bài gốc](https://arxiv.org/abs/2309.06180) nêu near-zero waste và flexible sharing; không khẳng định internal waste bằng không tuyệt đối. |
+| [5] AWQ | Xác định các channel quan trọng theo activation distribution thay vì chỉ theo weight | Đạt. [Abstract](https://arxiv.org/abs/2306.00978) mô tả activation statistics và scaling salient channels. |
+| [8] TinyLlama | Mô hình pretrained 1.1B, tận dụng FlashAttention và hệ sinh thái Llama | Đạt. [Abstract](https://arxiv.org/abs/2401.02385) nêu kích thước, pretraining và nền tảng Llama 2; không mô tả nó như distilled BERT. |
+| [20] Speculative decoding | Draft sinh chuỗi autoregressively; target kiểm tra các vị trí song song, giữ target distribution bằng acceptance/rejection | Đạt. [Algorithm 1 và mục 2](https://arxiv.org/html/2211.17192) ghi rõ hai bước và quy tắc điều chỉnh phân phối. |
+
+Các lỗi phát hiện được đã sửa bằng hai revision trong sandbox: độ phức tạp
+FlashAttention, fragmentation PagedAttention, raw paper identifier trong câu,
+phân biệt DistilBERT/TinyLlama và bước draft/verification của speculative decoding.
+Đối chiếu tổng cộng 25 mẫu cho năm báo cáo; không khẳng định đã xác minh mọi câu.

@@ -1,0 +1,74 @@
+[
+  {
+    "n": 1,
+    "id": "https://openai.com/index/video-generation-models-as-world-simulators/",
+    "url": "https://openai.com/index/video-generation-models-as-world-simulators/",
+    "title": "Video generation models as world simulators",
+    "date": "2024-02-15",
+    "source": "web"
+  },
+  {
+    "n": 2,
+    "id": "https://www.runwayml.com/research/scale-speed-and-stepping-stones-the-path-to-gen-2",
+    "url": "https://www.runwayml.com/research/scale-speed-and-stepping-stones-the-path-to-gen-2",
+    "title": "Scale, Speed and Stepping Stones: The path to Gen-2",
+    "date": "2023-09-28",
+    "source": "web"
+  },
+  {
+    "n": 3,
+    "id": "2311.10122",
+    "url": "https://huggingface.co/papers/2311.10122",
+    "title": "Video-LLaVA: Learning United Visual Representation by Alignment Before Projection",
+    "date": "2023-11-16",
+    "source": "hf-search"
+  },
+  {
+    "n": 4,
+    "id": "2309.05519",
+    "url": "https://huggingface.co/papers/2309.05519",
+    "title": "NExT-GPT: Any-to-Any Multimodal LLM",
+    "date": "2023-09-11",
+    "source": "hf-search"
+  },
+  {
+    "n": 5,
+    "id": "2312.14125",
+    "url": "https://huggingface.co/papers/2312.14125",
+    "title": "VideoPoet: A Large Language Model for Zero-Shot Video Generation",
+    "date": "2023-12-21",
+    "source": "hf-search"
+  },
+  {
+    "n": 6,
+    "id": "2408.06072",
+    "url": "https://huggingface.co/papers/2408.06072",
+    "title": "CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer",
+    "date": "2024-08-12",
+    "source": "hf-search"
+  },
+  {
+    "n": 7,
+    "id": "2503.09642",
+    "url": "https://huggingface.co/papers/2503.09642",
+    "title": "Open-Sora 2.0: Training a Commercial-Level Video Generation Model in $200k",
+    "date": "2025-03-12",
+    "source": "hf-search"
+  },
+  {
+    "n": 8,
+    "id": "2610.12459",
+    "url": "https://huggingface.co/papers/2610.12459",
+    "title": "WorldGuide: Goal-Directed Video World Model for Procedural Task Execution",
+    "date": "2026-10-08",
+    "source": "hf-daily"
+  },
+  {
+    "n": 9,
+    "id": "2311.15127",
+    "url": "https://huggingface.co/papers/2311.15127",
+    "title": "Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets",
+    "date": "2023-11-25",
+    "source": "hf-search"
+  }
+]
